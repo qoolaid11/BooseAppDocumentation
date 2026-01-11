@@ -12,6 +12,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETests.AppCommandFactoryTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETests.AppCommandFactoryTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETests.AppCommandFactoryTests",
+      "Summary": "<p sourcefile=\"api/BOOSETests.AppCommandFactoryTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEapp.AppCommandFactory\" data-throw-if-not-resolved=\"false\"></xref> singleton pattern.\nVerifies that only one factory instance exists.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSETests.AppDrawToTests.yml",
       "output": {
         ".html": {
@@ -23,6 +37,20 @@
       "IsMRef": true,
       "Title": "BOOSETests.AppDrawToTests",
       "Summary": "<p sourcefile=\"api/BOOSETests.AppDrawToTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEapp.AppCanvas\" data-throw-if-not-resolved=\"false\"></xref> DrawTo method.\nVerifies that drawing updates positions correctly and handles invalid coordinates.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETests.AppIntTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETests.AppIntTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETests.AppIntTests",
+      "Summary": "<p sourcefile=\"api/BOOSETests.AppIntTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEapp.AppInt\" data-throw-if-not-resolved=\"false\"></xref> variable type.\nVerifies that integers store values correctly.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -40,17 +68,59 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BOOSETests.Test1.yml",
+      "source_relative_path": "api/BOOSETests.AppMultilineTest.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BOOSETests.Test1.html"
+          "relative_path": "api/BOOSETests.AppMultilineTest.html"
         }
       },
       "version": "",
       "Uid": null,
       "IsMRef": true,
-      "Title": "BOOSETests.Test1",
+      "Title": "BOOSETests.AppMultilineTest",
       "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETests.AppParserTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETests.AppParserTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETests.AppParserTests",
+      "Summary": "<p sourcefile=\"api/BOOSETests.AppParserTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEapp.AppParser\" data-throw-if-not-resolved=\"false\"></xref> class.\nVerifies that variable declarations are parsed correctly.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETests.AppRealTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETests.AppRealTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETests.AppRealTests",
+      "Summary": "<p sourcefile=\"api/BOOSETests.AppRealTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEapp.AppReal\" data-throw-if-not-resolved=\"false\"></xref> variable type.\nVerifies that real numbers store decimal values correctly.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSETests.AppStoredProgramTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSETests.AppStoredProgramTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSETests.AppStoredProgramTests",
+      "Summary": "<p sourcefile=\"api/BOOSETests.AppStoredProgramTests.yml\" sourcestartlinenumber=\"1\">Unit tests for the <xref href=\"BOOSEapp.AppStoredProgram\" data-throw-if-not-resolved=\"false\"></xref> class.\nVerifies that variables are retrieved and updated correctly.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -106,7 +176,21 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "BOOSEapp.AppCommandFactory",
-      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">A new factory class for creating custom application commands.</p>\n"
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">A singleton factory class for creating custom application commands.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppInt",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppInt.yml\" sourcestartlinenumber=\"1\">creates integer variable type for BOOSE programs.\nStores whole numbers and truncates decimal values.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -124,6 +208,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppParser",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppParser.yml\" sourcestartlinenumber=\"1\">Parses BOOSE source code into executable commands.\nHandles variable and real declarations and assignments.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppReal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppReal",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppReal.yml\" sourcestartlinenumber=\"1\">supports real number variable type for BOOSE programs</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/BOOSEapp.AppRect.yml",
       "output": {
         ".html": {
@@ -135,6 +247,34 @@
       "IsMRef": true,
       "Title": "BOOSEapp.AppRect",
       "Summary": "<p sourcefile=\"api/BOOSEapp.AppRect.yml\" sourcestartlinenumber=\"1\">This command draws a rectangle on the canvas\nusing width and height in pixels.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppStoredProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppStoredProgram",
+      "Summary": "<p sourcefile=\"api/BOOSEapp.AppStoredProgram.yml\" sourcestartlinenumber=\"1\">stored program that handles real number variables\nExtends BOOSE StoredProgram to support AppReal types</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapp.AppWrite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapp.AppWrite.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapp.AppWrite",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -173,26 +313,6 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/getting-started.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/getting-started.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/introduction.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/introduction.html"
         }
       },
       "version": ""
